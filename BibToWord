@@ -1,3 +1,11 @@
+' This VBA macro reads BibTeX formatted references from a text field, processes the input,
+' and converts it into XML format to add it as a source in Word's bibliography.
+' The macro handles different BibTeX entry types (e.g., @book, @article) and extracts key fields 
+' like title, year, volume, pages, and author. It processes multiple authors and splits them 
+' into first, last, and middle names. Finally, it adds the XML source to the document's bibliography 
+' and inserts a citation at the current selection.
+
+
 Private Sub CommandButton1_Click()
     ' Declare variables to store the XML input, tag, and lines
     Dim strXml As String
