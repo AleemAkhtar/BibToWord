@@ -5,6 +5,11 @@
 ' into first, last, and middle names. Finally, it adds the XML source to the document's bibliography 
 ' and inserts a citation at the current selection.
 ' 
+' Current code limitations:
+'    - This code cannot interpret & (ampersand) symbol and required 'and' in BibTex source i.e. Wiley & Sons
+'    - This code cannot interpret other language characters
+' Please feel free to update and improve the code. :)
+' 
 ' Author: Aleem Akhtar
 ' Version: 1.0.0
 
