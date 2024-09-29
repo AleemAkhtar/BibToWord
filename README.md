@@ -24,6 +24,3 @@ This VBA macro facilitates the conversion of BibTeX-formatted references into Mi
 
 Contributions to enhance the macro's functionality, such as adding support for special characters and additional languages, are welcome. Please feel free to update and improve the code.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
