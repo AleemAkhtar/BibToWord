@@ -4,6 +4,9 @@
 ' like title, year, volume, pages, and author. It processes multiple authors and splits them 
 ' into first, last, and middle names. Finally, it adds the XML source to the document's bibliography 
 ' and inserts a citation at the current selection.
+' 
+' Author: Aleem Akhtar
+' Version: 1.0.0
 
 
 Private Sub CommandButton1_Click()
